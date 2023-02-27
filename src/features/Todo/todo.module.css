@@ -1,0 +1,43 @@
+
+.wrapper{
+    padding: 2rem 0rem;
+    text-align: center;
+    position: relative;
+}
+.container{
+    padding: 0 2rem;
+    max-width: 768px;
+    margin: 0 auto;
+}
+.title{
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: -15px 5px 20px #ced0d3;
+    text-align: center;
+    color: #F9f1cc;
+    margin-bottom: 2rem;
+    text-shadow: 5px 5px 0px #FFB650, 
+      10px 10px 0px #FFD662, 
+      15px 15px 0px  #FF80BF, 
+      20px 20px 0px #EF5097, 
+      25px 25px 0px #6868AC, 
+
+}
+.listTask{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .listTask{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container{
+        padding: 0 1rem;
+    }
+}

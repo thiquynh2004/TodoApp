@@ -1,0 +1,55 @@
+.wrapper {
+  text-align: center;
+}
+.form {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+.inputTask,
+.inputTaskTimer {
+  height: 2rem;
+  padding-left: 0.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding: 1.4rem 1.2rem;
+  border: 1px solid #2eb6b6;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.buttonAddTask {
+  width: 7rem;
+  height: 2.6rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(30, 129, 187);
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+.buttonAddTask:hover {
+  background-color: rgb(9, 224, 224);
+}
+@media screen and(max-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form{
+      flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form{
+    padding: 1rem 0rem;
+  }
+}

@@ -1,0 +1,28 @@
+.item {
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.inputTask {
+  width: 70%;
+  height: 2rem;
+  padding-left: 0.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  border: 1px solid #2eb6b6;
+}
+.buttonAddTask {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(30, 129, 187);
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+.buttonAddTask:hover{
+    background-color: rgb(9, 224, 224);
+}
+

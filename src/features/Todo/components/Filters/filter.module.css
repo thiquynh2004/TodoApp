@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+    text-align: center;
+}
+.selectBox{
+    right: 2rem;
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 50px;
+    text-align: center;
+    font-size:1rem;
+    border: 1px solid rgba(42, 131, 205, 0.5);
+    transition: all 0.5s linear;
+}
